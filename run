@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -x
+
+cd "$(dirname "$0")"
+node index.js &
+pid=$!
+wait $pid
+
+set +x

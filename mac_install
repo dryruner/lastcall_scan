@@ -1,0 +1,20 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"
+
+# Install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Install npm
+brew install npm
+
+# Install n
+npm install -g n
+
+# Install node
+node -v
+
+# Install packages
+npm install
+
+echo "Installation success!"

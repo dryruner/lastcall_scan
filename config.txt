@@ -1,0 +1,11 @@
+// ========= Read me and No Change ============
+// Change startIndex and maxNum value below.
+// Example: scan from "https://www.lastcall.com/prod57450065/p.prod" to "https://www.lastcall.com/prod57450085/p.prod"
+// ========= Read me and No Change ============
+
+
+
+module.exports = {
+  startIndex: 57450065,
+  maxNum: 50,
+};
